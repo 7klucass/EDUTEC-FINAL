@@ -467,3 +467,36 @@ right: 28.2rem;
     height: 100%;
     margin-top: 15rem;
 }
+
+
+.turtle{ 
+    position: relative;
+    display: inline-block;
+}
+
+
+.turtle img{
+    cursor: pointer;
+    padding-left: 25rem;
+    margin-top: 2rem;
+    height: 40rem;
+    
+}
+
+
+.turtle{
+    transition: all .3s;
+}
+
+.turtle:hover{
+    transform: translateY(-20px);
+}
+
+.turtle:hover .img-cavalo{
+    opacity: .5;
+    filter: drop-shadow(4px 4px 20px white);
+}
+
+.turtle .turtle:hover{
+    opacity: 1;
+}
