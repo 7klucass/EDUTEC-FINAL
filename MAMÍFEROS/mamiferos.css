@@ -66,16 +66,14 @@ h1, p {
 .cabeçalho h1 {
     font-family: "Roboto Slab", serif;
     font-style: bold;
-    font-size: 9rem;
+    font-size: 8.3rem;
     z-index: 1;
     margin: 0;
     width: 100%;
-    position: absolute;
+    height: 30rem;
+    margin-top: 7rem;
     text-align: center;
-    top: 10%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    top: 9%;
 }
 .cabeçalho img {
     width: 100%;
@@ -88,7 +86,6 @@ h1, p {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-top: 40rem;
 }
 
 .text-alt {

@@ -13,8 +13,8 @@ body {
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgb(0, 0, 15), #0e0b3a);
-    background-size: 1000% 1000%;
+    background-image: url(../imagens/sea-21649_1280.jpg);
+    background-image: cover;
 }
 
 .text-jogo {
@@ -68,7 +68,7 @@ body {
 .help {
     position: fixed;
     bottom: 0.5rem;
-    right: 0.5rem;
+    right: 0;
     border: none;
     outline: none;
     background: none;
