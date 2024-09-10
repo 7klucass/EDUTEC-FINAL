@@ -153,8 +153,9 @@ header {
     padding-top: 10rem;
 }
 .img-cavalo{
-    margin-top: 8rem;
-    margin-left: 3rem;
+
+    width: 33rem;
+
 }
 
 .img-cavalo{ 
@@ -420,10 +421,10 @@ p{
     justify-content: center;
     text-align: center; 
     color: white; 
-    font-size: 6.4rem; 
+    font-size: 7rem; 
     font-family: Roboto Slab;
     position: absolute;
-    right: 17rem; 
+    right: 19rem; 
     top: 260rem; 
     text-shadow: 0.125rem 0.125rem 0.313rem rgba(0, 0, 0, 0.5);
 }
@@ -459,4 +460,8 @@ align-items: center;
 position: absolute;
 top: 285rem;
 right: 28.2rem;
+}
+
+.fundo-game{
+    width: 100%;
 }
