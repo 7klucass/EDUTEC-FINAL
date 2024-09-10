@@ -19,8 +19,17 @@ h1, p {
 .logo-site {
     position: fixed;
     top: 0; 
+    margin-left: 7.6rem; 
+    width: 6.2rem; 
+    height: auto; 
+    z-index: 1000; 
+}
+
+.seta{
+    position: fixed;
+    top: 0; 
     left: 0; 
-    width: 6.5625rem; 
+    width: 6.2rem; 
     height: auto; 
     z-index: 1000; 
     padding: 0 0.625rem; 
