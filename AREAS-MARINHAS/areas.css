@@ -189,3 +189,18 @@ h2 {
     font-size: 3.1rem;
     padding-top: 2rem;
 }
+
+.img3{
+    border-radius: 20px;
+    width: 48rem;
+}
+
+.img2{
+    border-radius: 25px;
+    width: 49rem;
+}
+
+.img1{
+    border-radius: 23px;
+    width: 49rem;
+}
