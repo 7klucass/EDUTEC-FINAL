@@ -19,7 +19,7 @@
     color: #fff;
     position: absolute;
     text-align: center;
-    left: 16%;
+    left: 21%;
     top: 17%;
     transform: translate(-50%, -50%);
     font-size: 6rem;
@@ -27,12 +27,11 @@
 }
 
 #logo{
-    left: 87%;
+    left: 4%;
     position: absolute;
     top: 17%;
     transform: translate(-50%, -50%);
-    width: 0%;
-    height: auto;
+    width: 5rem;
     cursor: pointer;
     border: none;
     outline: none;
