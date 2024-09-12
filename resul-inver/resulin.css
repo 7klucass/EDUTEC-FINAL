@@ -86,10 +86,19 @@ main {
 .voltar {
     display: flex;
     position: relative;
-    right: 17rem;
-    width: 6rem; 
+    right: 13rem;
     top: -1.3rem;
     transition: transform 0.6s ease;
+    width: 6rem; 
+}
+
+.logo-site {
+    position: fixed;
+    top: 4rem; 
+    margin-left: -22rem; 
+    width: 5.68rem; 
+    height: auto; 
+    z-index: 1000; 
 }
 
 .voltar:hover  {
