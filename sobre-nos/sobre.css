@@ -39,8 +39,8 @@ h1 {
 
 .logo-site {
     position: fixed;
-    top: 0; 
-    margin-left: 7.6rem; 
+    top: 1rem; 
+    margin-left: 4rem; 
     width: 5.68rem;  
     height: auto; 
     z-index: 1000; 
