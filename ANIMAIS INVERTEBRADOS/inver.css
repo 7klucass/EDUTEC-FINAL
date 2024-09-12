@@ -7,8 +7,17 @@
 .logo-site {
     position: fixed;
     top: 0; 
+    margin-left: 7.6rem; 
+    width: 5.68rem;  
+    height: auto; 
+    z-index: 1000; 
+}
+
+.seta{
+    position: fixed;
+    top: 0; 
     left: 0; 
-    width: 5.68rem; 
+    width: 6.2rem; 
     height: auto; 
     z-index: 1000; 
     padding: 0 0.625rem; 
@@ -47,13 +56,11 @@
 }
 
 body {
+    background-image: linear-gradient(rgb(0, 0, 15), #17125e);
+    background-size: 900% 900%;
     height: 100%;
 }
 
-main {
-    background: black;
-    height: 100%;
-}
 
 h1, p {
     color: white;
@@ -62,18 +69,14 @@ h1, p {
 .cabeçalho h1 {
     font-family: "Roboto Slab", serif;
     font-style: bold;
-    font-size: 10rem;
-    text-shadow: 
-        1px 1px 0 rgba(0, 0, 0, 0.7), /* Sombra à direita e abaixo */
-        -1px -1px 0 rgba(0, 0, 0, 0.7), /* Sombra à esquerda e acima */
-        1px -1px 0 rgba(0, 0, 0, 0.7), /* Sombra à direita e acima */
-        -1px 1px 0 rgba(0, 0, 0, 0.7); /* Sombra à esquerda e abaixo */
+    font-size: 8.3rem;
     z-index: 1;
     margin: 0;
     width: 100%;
-    position: absolute;
+    height: 20rem;
+    margin-top: 7rem;
     text-align: center;
-   background-color: black;
+    top: 9%;
 }
 .cabeçalho img {
     width: 100%;
@@ -97,14 +100,14 @@ h1, p {
 
 section p {
     font-family: "Roboto Slab", serif;
-    font-size: 2.875rem;
+    font-size: 1.9rem;
     font-weight: 400;
     text-align: justify;
 }
 
 section h1 {
     font-family: "Roboto Slab", serif;
-    font-size: 4rem;
+    font-size: 2rem;
     font-style: bold;
     margin-bottom: 1rem;
 }
