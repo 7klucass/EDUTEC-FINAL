@@ -2,69 +2,48 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Roboto Slab, serif;
 }
 
 body {
-    width: 100%;
-    height: 100vh; 
-}
-
-.jogo-final {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-image: url(../imagens/sea-21649_1280.jpg);
+    background-image: url(../imagens/pexels-magda-ehlers-pexels-2832772.jpg) ;
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 100%;
+    overflow-x: hidden;
 }
 
-.text-jogo {
+.principal {
+    width: 100%;
+    max-width: 1366px; 
+    margin: 0 auto; 
+}
+
+h1 {
     display: flex;
-    width: 79.063rem; 
-    height: 26.375rem;  
+    font-size: 6.3rem;
+    color: white;
     justify-content: center;
-    text-align: center; 
-    color: white; 
-    font-size: 4.7rem; 
-    font-family: Roboto Slab;  
-    position: absolute;
-    right: 18rem; 
-    top: 10rem; 
+    text-align: center;
+    margin-top: 8.6rem;
     text-shadow: 0.125rem 0.125rem 0.313rem rgba(0, 0, 0, 0.5);  
 }
 
-.botao-jogo {
+.botao {
     display: flex;
-    height: 9.6rem; 
+    margin-top: 3rem;
     justify-content: center;
-    position: absolute;
-    margin-bottom: 50rem;
-    top: 70%;
-    right: 38rem; 
-    transition: transform 0.3s ease-out;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.3s ease
 }
 
-.botao-jogo:hover {
-    transform: scale(1.1);
+.botao:hover {
+    transform: scale(1.05);
 }
 
-.linha-cima {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    margin-bottom: 50rem;
-    top: 13%;
-    right: 30rem; 
-}
-
-.linha-baixo {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    margin-bottom: 50rem;
-    top: 59%;
-    right: 30rem; 
+.imgbot {
+    height: 9.8rem;
 }
 
 .help {
@@ -82,21 +61,98 @@ body {
 #botao-ajuda {
     width: 4rem;
     height: 4rem;
-    transition: transform 0.6s ease;
+
 }
 
-.help:hover #botao-ajuda {
-    transform: scale(1.3);
-    color: black;
+.logo-site {
+    position: fixed;
+    top: 0; 
+    margin-left: 6.6rem; 
+    width: 5rem; 
+    height: auto; 
+    z-index: 1000; 
+    left: 0.2rem;
 }
 
-.voltar-gamehome {
-    margin-top: 1rem;
-    margin-left: 3rem;
-    width: 5.68rem;
-  }
-  
-.voltar-gamehome:hover  {
-    transform: scale(1.3);
-    color: black;
-  }
+.seta {
+    position: fixed;
+    top: 0; 
+    left: 0; 
+    width: 6.2rem; 
+    height: auto; 
+    z-index: 1000; 
+    padding: 0 0.625rem; 
+    margin: 0.3125rem; 
+}
+
+@media (min-width: 1920px) {
+
+    .principal {
+        width: 100%;
+        max-width: 1920px; /* expande até 1920px */
+    }
+
+    h1 {
+        display: flex;
+        font-size: 9rem;
+        color: white;
+        justify-content: center;
+        text-align: center;
+        margin-top: 16rem;
+        text-shadow: 0.125rem 0.125rem 0.313rem rgba(0, 0, 0, 0.5);  
+    }
+
+    .botao {
+        display: flex;
+        margin-top: 5rem;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transition: transform 0.3s ease
+    }
+
+    .botao:hover {
+        transform: scale(1.05);
+    }
+    
+    .imgbot {
+        height: 12rem;
+    }
+
+    .help {
+        position: fixed;
+        bottom: 0.5rem;
+        right: 0;
+        border: none;
+        outline: none;
+        background: none;
+        padding: 0;
+        cursor: pointer;
+        z-index: 1000;
+    }
+    
+    #botao-ajuda {
+        width: 6rem;
+        height: 6rem;
+    }
+     
+    .logo-site {
+        position: fixed;
+        top: 0; 
+        margin-left: 9.6rem; 
+        width: 8.5625rem; 
+        height: auto; 
+        z-index: 1000; 
+    }
+
+    .seta {
+        position: fixed;
+        top: 0; 
+        left: 0; 
+        width: 8.5625rem; 
+        height: auto; 
+        z-index: 1000; 
+        padding: 0 0.625rem; 
+        margin: 0.3125rem; 
+    }
+}
